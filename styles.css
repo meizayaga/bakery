@@ -1,0 +1,76 @@
+
+    /* Estilos generales */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    /* Encabezado */
+    header {
+      background-color: #d999d6;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Navegación con Flexbox */
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #dd84d4;
+      padding: 15px;
+    }
+
+    nav a {
+      color: rgb(135, 49, 49);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Contenido principal */
+    main {
+      padding: 30px;
+    }
+
+    /* Sección de productos */
+    .productos {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .tarjeta-producto {
+      background-color: rgb(208, 185, 185);
+      border-radius: 12px;
+      padding: 20px;
+      width: 220px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .imagen-producto {
+      font-size: 60px;
+      margin-bottom: 10px;
+    }
+
+    .formulario{
+      background-color: rgb(208, 185, 185);
+      border-radius: 12px;
+      padding: 20px;
+      width: 220px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    /* Pie de página */
+    footer {
+      background-color: #7f93c9;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
